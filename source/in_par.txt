@@ -1,0 +1,6 @@
+intseed 17
+expcount 2000
+Edock_kt 4.5
+fload_x -4
+fload_y 9
+limping -0.16
