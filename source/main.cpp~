@@ -19,7 +19,7 @@ double Edock_kt;
 const double E1_kt = 22.3;
 const double E2_kt_before = 32.0;
 const double E2_kt_after = 5.0;
-const double E3_kt = 35;
+const double E3_kt = 34.5;
 const double ita = 2.0E-3;
 const double c = 1;
 const double rb = 500.0;
@@ -124,7 +124,7 @@ int main()
 	>> par_temp >> fload >> par_temp >> fload_y >> par_temp >> limping;
     parin.close();
     
-    intseed=intseed;Edock_kt=4.5;fload=-4.0;fload_y=3;
+    intseed=intseed;Edock_kt=4.5;fload=-4.0;fload_y=9.0;
 
     ofstream out_x("../data/x.dat");
     ofstream out_t("../data/t.dat");
